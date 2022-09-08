@@ -1,0 +1,12 @@
+@media screen and (max-width: 600px) {
+    .main__container-slider{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 350px;
+        height: 100vh;
+    }
+    .main__info{
+        margin-bottom: 30px;
+    }
+    
+}
