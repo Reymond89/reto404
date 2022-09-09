@@ -10,48 +10,57 @@
 .main__container{
     display: grid;
     justify-content: center;
+    min-width: 320px;
 }
 .main__container-slider{
     display: grid;
     grid-template-columns: repeat(2, minmax(300px, 500px));
-    grid-template-rows: 500px;
-    justify-items: center;
+    grid-template-rows: 600px;
+    align-content: center;
     align-items: center;
+    justify-items: center;
     height: 100vh;
 }
 .main__container-img h4{
-    font-size: 1rem;
+    font-size: 1.4rem;
     font-weight: 700;
-    margin-bottom: 16px;
+    margin-bottom: 50px;
     display: grid;
     justify-content: start;
 }
-.main__container-img img{
-    width: 300px;
-}
-.main__info{
+.main__container-img{
     display: grid;
     justify-items: start;
-    align-self: center;
+    align-content: center;
+}
+.main__container-img img{
+    width: 450px;
+   
+}
+.main__info{
+ 
+    display: grid;
+    justify-items: start;
+    align-items: center;
 }
 .main__info h1{
     
     font-weight: bold;
-    font-size: 2.5rem;
+    font-size: 4.5rem;
     letter-spacing: 2px;
 }
 .main__info p{
     margin-top: 30px;
     font-weight: 300;
-    font-size: 1.2rem;
+    font-size: 2rem;
     margin-bottom: 40px;
 }
 .main__info a{
     text-decoration: none;
     color: #ffff;
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 400;
-    padding: 9px 10px;
+    padding: 15px 18px;
     background-color: #3a3838;
-    margin-bottom: 50px;
+   
 }
